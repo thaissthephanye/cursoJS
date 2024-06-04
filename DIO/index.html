@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Herói</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="pixel-text">Herói</h1>
+    <form id="heroForm" class="pixel-form">
+      <div class="form-group">
+        <label for="heroName" class="pixel-text">Nome do Herói:</label>
+        <input type="text" id="heroName" name="heroName" class="pixel-input" required>
+      </div>
+      <div class="form-group">
+        <label for="heroXP" class="pixel-text">XP do Herói:</label>
+        <input type="number" id="heroXP" name="heroXP" class="pixel-input" required>
+      </div>
+      <button type="submit" class="pixel-btn">Determinar Nível</button>
+    </form>
+    <div id="result" class="pixel-text"></div>
+  </div>
+
+  <script src="class.js"></script>
+</body>
+</html>
